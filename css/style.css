@@ -1,0 +1,71 @@
+body, h1, p{
+	margin: 0;
+}
+
+header{
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	background-attachment: fixed;
+	/*padding: 4directions
+	padding: top/bottom left/right;
+	padding: top right bottom left;
+	padding: top left/right bottom;	
+	*/
+	padding: 150px 535px 0 200px; 
+
+	height: 100vh;
+}
+
+h1{
+	text-transform: capitalize;
+	font-size: 120px;
+	line-height: 88px;
+	color: white;
+}
+
+hr{
+	width: 150px;
+	text-align: left;
+	margin-left: 0;
+	border: 2px solid #945c2e;
+}
+
+.head-para{
+	font-size: 20px;
+	color: white;
+	margin: 25px 0;
+}
+
+.btn1{
+	border: none;
+	background-color: #945c2e;
+	color: white;
+	font-size: 18px;
+	padding: 15px 40px;
+	word-spacing: 0;
+}
+
+.btn1:hover{
+	background-color: transparent;
+	color: #945c2e;
+	border: 2px solid #945c2e;
+}
+
+.btn2{
+	border: none;
+	background-color: transparent;
+	color: #945c2e;
+	font-size: 18px;
+	padding: 13px 30px;
+	border: 2px solid #945c2e;
+}
+
+.btn2:hover{
+	background-color: #945c2e;
+	color: white;
+}
+section{
+	height: 100vh;
+}
